@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div>
+    <div className='text-white'>
       Cards
     </div>
   )

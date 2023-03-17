@@ -5,6 +5,9 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Analytics from '@/components/Analytics'
+import Newsletter from '@/components/Newsletter'
+import Cards from '@/components/Cards'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -20,6 +23,9 @@ export default function Home() {
         <Navbar/>
         <Hero/>
         <Analytics/>
+        <Newsletter/>
+        <Cards/>
+        <Footer/>
       </div>
     </>
   )
